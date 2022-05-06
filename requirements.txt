@@ -1,0 +1,9 @@
+git+https://github.com/pyrogram/pyrogram@master
+tgcrypto
+motor
+marshmallow
+umongo
+requests
+psutil
+pymongo[srv]
+python-dotenv

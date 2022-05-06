@@ -1,0 +1,23 @@
+services:
+  kitapbotu1:
+    build: .
+    environment:
+      ADMINS: $ADMINS
+      API_HASH: $API_HASH
+      API_ID: $API_ID
+      AUTH_CHANNEL: $AUTH_CHANNEL
+      BOT_TOKEN: $BOT_TOKEN
+      CHANNELS: $CHANNELS
+      COLLECTION_NAME: $COLLECTION_NAME
+      DATABASE_NAME: $DATABASE_NAME
+      DATABASE_URI: $DATABASE_URI
+      LOG_CHANNEL: $LOG_CHANNEL
+      SESSION: $SESSION
+      SUPPORT_CHAT: $SUPPORT_CHAT
+      USE_CAPTION_FILTER: $USE_CAPTION_FILTER
+    ports:
+      - 8080
+    resources:
+      cpu: 1000m
+      memory: 3Gi
+    command: python3 bot.py
