@@ -1,7 +1,6 @@
-kitaplar için özelleştirilmiş evamaria
+#### Heroku Deploy
 
-written by theban & zorgof
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 BUTTON_COUNT kaç buton çıkacağını belirler.
 
